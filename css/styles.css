@@ -1,1 +1,7 @@
 /**/
+.contenedor-ejercicio{
+    width: 90%;
+    background-color: beige;
+    border: 1px solid black;
+    margin-bottom: 15PX;
+}

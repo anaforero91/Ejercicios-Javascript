@@ -1,16 +1,25 @@
 <html>
     <head>
         <title>Ejercicios</title>
-        
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
         <h1>Ejercicios en Javascript</h1>
-        <h2> 1. Suma de dos números</h2>
-        <p>Crea un programa que solicite dos números al usuario y muestre su suma.</p> 
 
-        <p id="resultado"></p>
-
-
+        <div class="contenedor-ejercicio">
+            
+            <h2> 1. Suma de dos números</h2>
+            <p>Crea un programa que solicite dos números al usuario y muestre su suma.</p>
+            <button onclick="suma()">Ejecutar ejercicio 1</button>
+            <p id="resultadoEJ1"></p>
+        </div>
+        
+        <div class="contenedor-ejercicio">
+            <h2>2. Numeros pares o impares</h2>
+            <p>Crea un programa que solicite un número al usuario y muestre si es par o impar.</p>
+            <button onclick="numeroParImpar()">Ejecutar ejercicio 2</button>
+            <p id="resultadoEJ2"></p>
+        </div>
 
         <script src="./scripts/main.js"></script>
     </body>
