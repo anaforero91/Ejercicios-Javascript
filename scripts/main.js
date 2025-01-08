@@ -20,3 +20,8 @@ function numeroParImpar(){
     }
     document.getElementById("resultadoEJ2").innerText = resultado;
 }
+
+//3. Número mayor
+function numeroMayor(){
+    
+}
